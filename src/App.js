@@ -17,7 +17,7 @@ function App() {
    }
   ]);
   const addTodo=text=>{
-    const newTodos=[...todos,{text}];
+    const newTodos=[todos,{text}];
     setTodos(newTodos);
   };
   
